@@ -3,10 +3,16 @@ import random
 
 def merge(number1, number2):
     mlist = []
-
-    #################
-    # Do not delete return statement
-    # You should return 'mlst" as a merged result
+    i = j = 0
+    
+    while i < len(number1) and j < len(number2):
+    
+    
+    
+    
+    
+    
+    
     return mlist
 
 
