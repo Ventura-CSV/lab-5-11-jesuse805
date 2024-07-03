@@ -6,7 +6,8 @@ def merge(number1, number2):
     i = j = 0
     
     while i < len(number1) and j < len(number2):
-    
+        if number1[i] < number2[j]:
+            mlist.append(number1[1])    
     
     
     
