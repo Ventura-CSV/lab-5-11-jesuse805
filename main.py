@@ -10,14 +10,16 @@ def merge(number1, number2):
             mlist.append(number1[i]) 
             i += 1   
         else:
-            mlist.append(number2[i])
+            mlist.append(number2[j])
             j += 1
     
-    
-    
-    
-    
-    
+    while i < len(number1):
+        mlist.append(number1[i])
+        i += 1
+         
+    while j < len(number2):
+        mlist.append(number2[i])
+        j += 1
     return mlist
 
 
