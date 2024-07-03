@@ -18,7 +18,7 @@ def merge(number1, number2):
         i += 1
          
     while j < len(number2):
-        mlist.append(number2[i])
+        mlist.append(number2[j])
         j += 1
     return mlist
 
